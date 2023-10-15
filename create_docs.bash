@@ -13,5 +13,10 @@ pip3 install dynotree
 
 # create docs
 cd docs 
-make html
 
+# I can do 
+# make clean
+# make html
+
+# or just:
+sphinx-build docs _build
